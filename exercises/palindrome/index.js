@@ -10,7 +10,8 @@
 
 //awesome, straightforward solution
 function palindrome(str) {
-  const reversed = str.split('')
+  const reversed = str
+  .split('')
   .reverse()
   .join('')
 
